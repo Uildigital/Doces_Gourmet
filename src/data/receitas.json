@@ -86,5 +86,278 @@
     ],
     "segredo": "O segredo da fatia de vitrine é o corte. Use uma faca longa aquecida em água quente e limpe-a a cada corte. Isso garante que as camadas não se misturem e o visual seja milimetricamente limpo.",
     "harmonizacao": "Harmoniza com um Café Latte bem cremoso ou um copo de leite gelado para os mais tradicionais."
+  },
+  {
+    "id": 4,
+    "titulo": "Brigadeiro de Pistache (Ouro Verde)",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1590004953392-5aba2e786369?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "custo": "Alto",
+    "descricao": "A joia da confeitaria. Pistache iraniano puro transformado em uma massa sedosa, finalizado com castanhas torradas que explodem em sabor.",
+    "diferencial": "Pasta 100% pistache feita na hora para garantir a cor verde vibrante sem corantes artificiais.",
+    "rendimento": "25 unidades de 20g",
+    "ingredientes": [
+      "1 lata de leite condensado premium",
+      "150g de creme de leite 35% de gordura",
+      "80g de pasta de pistache 100% pura",
+      "50g de chocolate branco belga W2",
+      "100g de pistache torrado e picado para enrolar"
+    ],
+    "preparo": [
+      "Misture o leite condensado, creme de leite e chocolate branco em fogo baixo.",
+      "Quando atingir o ponto de pré-bloque, adicione a pasta de pistache.",
+      "Cozinhe até a massa desgrudar completamente do fundo da panela.",
+      "Resfrie em temperatura ambiente por 8 horas.",
+      "Enrole e passe no pistache picado, pressionando levemente para aderir."
+    ],
+    "segredo": "A pasta de pistache deve ser adicionada apenas no final do cozimento para preservar os óleos essenciais e o aroma volátil da castanha.",
+    "harmonizacao": "Um vinho de sobremesa branco ou um chá Earl Grey quente."
+  },
+  {
+    "id": 5,
+    "titulo": "Brigadeiro Crème Brûlée",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1470124182917-cc6e71b22ccc?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "35 min",
+    "dificuldade": "Difícil",
+    "custo": "Médio",
+    "descricao": "O clássico francês em formato de brigadeiro. Massa de baunilha Bourbon fresca com a icônica crosta de açúcar maçaricado.",
+    "diferencial": "Uso de favas de baunilha reais e o contraste térmico e de texturas entre o doce e o vidro de açúcar.",
+    "rendimento": "30 unidades de 18g",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 caixinha de creme de leite",
+      "1/2 fava de baunilha Bourbon (sementes)",
+      "3 gemas peneiradas (para cor e riqueza)",
+      "Açúcar cristal para maçaricar"
+    ],
+    "preparo": [
+      "Bata as gemas com o leite condensado até homogeneizar e peneire.",
+      "Cozinhe com o creme de leite e a baunilha até dar o ponto de enrolar.",
+      "Deixe a massa descansar por pelo menos 12 horas.",
+      "Enrole no açúcar cristal.",
+      "Maçarique o açúcar apenas minutos antes de servir para garantir a 'quebra' perfeita."
+    ],
+    "segredo": "As gemas peneiradas dão a cor amarelada clássica do creme e uma textura aveludada incomparável que remete ao flã francês.",
+    "harmonizacao": "Café coado de grão especial (notas cítricas) para equilibrar o açúcar queimado."
+  },
+  {
+    "id": 6,
+    "titulo": "Brigadeiro de Limão Siciliano & Merengue",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1540331030866-bc401b380f76?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "25 min",
+    "dificuldade": "Iniciante",
+    "custo": "Baixo",
+    "descricao": "Refrescância e sofisticação. O toque cítrico do limão siciliano em uma base cremosa, decorado com suspiros artesanais.",
+    "diferencial": "Equilíbrio perfeito da acidez para quebrar a doçura excessiva do leite condensado.",
+    "rendimento": "35 unidades de 15g",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "100g de chocolate branco belga picado",
+      "Suco e raspas de 2 limões sicilianos grandes",
+      "Mini suspiros para decoração",
+      "Raspas extras de limão para finalizar"
+    ],
+    "preparo": [
+      "Cozinhe o leite condensado e o chocolate branco até ponto de enrolar.",
+      "Retire do fogo e misture as raspas e o suco de limão rapidamente (para não talhar).",
+      "Deixe esfriar completamente.",
+      "Enrole e decore com farelo de suspiro e uma gota de calda de limão."
+    ],
+    "segredo": "As raspas de limão siciliano contêm óleos aromáticos que fazem toda a diferença. Use apenas a parte amarela da casca para não amargar.",
+    "harmonizacao": "Água gaseificada com rodelas de pepino ou um espumante Rosé demi-sec."
+  },
+  {
+    "id": 7,
+    "titulo": "Brownie de Caramelo Salgado (Gold Edition)",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "custo": "Médio",
+    "descricao": "A combinação viciante do doce e salgado. Caramelo ambarino feito em casa entre camadas de brownie fudge.",
+    "diferencial": "Calda de caramelo com toque de flor de sal marinha, criando picos de sabor inesperados.",
+    "rendimento": "15 quadrados",
+    "ingredientes": [
+      "Massa de brownie base",
+      "200g de açúcar para o caramelo",
+      "100g de manteiga com sal",
+      "120ml de creme de leite fresco",
+      "Flor de sal para decorar"
+    ],
+    "preparo": [
+      "Prepare um caramelo seco com o açúcar até ficar cor de âmbar.",
+      "Adicione a manteiga, depois o creme de leite morno, mexendo até virar um toffee.",
+      "Coloque metade da massa na fôrma, despeje o caramelo e cubra com o restante da massa.",
+      "Asse conforme o tempo padrão.",
+      "Finalize com grãos de flor de sal por cima após esfriar."
+    ],
+    "segredo": "Não misture o caramelo na massa com força; faça movimentos de 'zigzag' para criar veios de caramelo inteiros dentro do brownie.",
+    "harmonizacao": "Um Bourbon de boa qualidade ou café tipo Ristretto."
+  },
+  {
+    "id": 8,
+    "titulo": "Brownie Red Velvet com Cheesecake",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "55 min",
+    "dificuldade": "Médio",
+    "custo": "Alto",
+    "descricao": "O visual mais impactante. Brownie vermelho escarlate com redemoinhos de creme cheesecake.",
+    "diferencial": "Contraste visual entre o vermelho vibrante e o branco do queijo, ideal para datas especiais.",
+    "rendimento": "12 pedaços largos",
+    "ingredientes": [
+      "Corante em gel vermelho lipossolúvel",
+      "15g de cacau em pó (menos que o brownie comum)",
+      "300g de cream cheese premium",
+      "1 ovo para o creme",
+      "80g de açúcar para o creme"
+    ],
+    "preparo": [
+      "Faça a massa de brownie base reduzindo o cacau e adicionando o corante.",
+      "Bata o cream cheese com ovo e açúcar até ficar liso.",
+      "Alterne as massas na fôrma e use um palito para criar o efeito marmorizado.",
+      "Asse até o creme de queijo firmar mas o brownie continuar úmido."
+    ],
+    "segredo": "Use menos cacau na massa vermelha; o cacau em excesso escurece a cor, deixando-a amarronzada em vez de vermelha viva.",
+    "harmonizacao": "Suco de frutas vermelhas natural ou um chá de Hibisco gelado."
+  },
+  {
+    "id": 9,
+    "titulo": "Brownie de Nutella Crocante",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1515037893149-de7f840978e2?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "40 min",
+    "dificuldade": "Iniciante",
+    "custo": "Médio",
+    "descricao": "A união dos deuses. Massa de brownie densa com uma camada interna de Nutella e crocante de avelãs.",
+    "diferencial": "Injeção de Nutella gelada na massa antes de assar, criando bolsões de cremosidade.",
+    "rendimento": "16 quadradinhos",
+    "ingredientes": [
+      "Massa base de brownie",
+      "250g de Nutella gelada",
+      "100g de avelãs torradas e picadas",
+      "Açúcar de confeiteiro para polvilhar"
+    ],
+    "preparo": [
+      "Coloque metade da massa na fôrma.",
+      "Adicione colheradas de Nutella gelada e salpique metade das avelãs.",
+      "Cubra com o restante da massa e as avelãs restantes.",
+      "Asse conforme o padrão até formar a casquinha.",
+      "Deixe esfriar completamente antes de cortar para a Nutella não escorrer."
+    ],
+    "segredo": "Gelar a Nutella antes de colocar na massa impede que ela se misture totalmente à massa, mantendo o recheio distinto e cremoso após assado.",
+    "harmonizacao": "Chá de hortelã ou um café Espresso duplo."
+  },
+  {
+    "id": 10,
+    "titulo": "Fatia de Elite: Red Velvet & Cream Cheese",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "custo": "Alto",
+    "descricao": "Sutileza e sabor. Massa amanteigada aveludada com toque de cacau e recheio de frosting de cream cheese cítrico.",
+    "diferencial": "Geleia de morango artesanal escondida entre as camadas para uma surpresa frutada.",
+    "rendimento": "10 fatias",
+    "ingredientes": [
+      "Massa Velvet vermelha",
+      "Frosting de Cream Cheese e manteiga",
+      "Geleia de morango pura",
+      "Frutas vermelhas frescas para decorar",
+      "Farelo da própria massa para o acabamento"
+    ],
+    "preparo": [
+      "Cozinhe a geleia de morango até ponto de brilho e resfrie.",
+      "Monte as camadas de massa intercalando com o frosting e um aro de geleia no centro.",
+      "Cubra toda a fatia com uma camada fina de frosting.",
+      "Polvilhe o farelo vermelho nas bordas para o visual clássico."
+    ],
+    "segredo": "Adicione um toque de suco de limão ao frosting de cream cheese. Isso quebra a gordura e eleva o sabor do queijo, equilibrando com a doçura da massa.",
+    "harmonizacao": "Champagne brut ou um drink de frutas vermelhas sem álcool."
+  },
+  {
+    "id": 11,
+    "titulo": "Fatia de Elite: Pistache & Framboesa",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1544860707-c352cc5a92e3?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "120 min",
+    "dificuldade": "Difícil",
+    "custo": "Muito Alto",
+    "descricao": "O auge da sofisticação europeia. Creme de pistache iraniano e coulis de framboesa em camadas milimétricas.",
+    "diferencial": "Uso de pistache moído na própria massa, conferindo textura e sabor terroso único.",
+    "rendimento": "10 fatias",
+    "ingredientes": [
+      "Pão de ló de pistache real",
+      "Mousse de chocolate branco com pistache",
+      "Coulis de framboesa ácida",
+      "Pistaches inteiros para decorar",
+      "Ouro comestível (opcional para elitizar)"
+    ],
+    "preparo": [
+      "Prepare o coulis reduzindo framboesas com pouco açúcar e limão.",
+      "Alterne massa, coulis e mousse no aro de montagem.",
+      "Finalize com uma glaçagem espelhada de pistache ou apenas o mousse alisado.",
+      "Decore com pistaches e o toque de ouro."
+    ],
+    "segredo": "O segredo da montagem perfeita é congelar o coulis em discos menores que a massa antes de montar. Isso impede que o líquido manche o mousse branco.",
+    "harmonizacao": "Espumante Rosé ou chá verde de alta qualidade."
+  },
+  {
+    "id": 12,
+    "titulo": "Fatia de Elite: Ferrero Rocher Real",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "70 min",
+    "dificuldade": "Médio",
+    "custo": "Alto",
+    "descricao": "Chocolate, avelã e crocância. Massa de chocolate 70% com recheio de ganache de avelã e pedaços de bombom.",
+    "diferencial": "Contraste de texturas: a maciez da massa com o 'crunch' do wafer e da avelã torrada.",
+    "rendimento": "10 fatias",
+    "ingredientes": [
+      "Massa chiffon de chocolate intenso",
+      "Creme de avelã (Nutella ou artesanal)",
+      "Avelãs torradas picadas",
+      "Wafers quebrados para o crocante",
+      "Cobertura de chocolate ao leite e avelãs (Glaçagem Ferrero)"
+    ],
+    "preparo": [
+      "Misture avelãs e wafers ao creme de recheio.",
+      "Monte as camadas garantindo que o crocante esteja bem distribuído.",
+      "Banhe o topo com a glaçagem de chocolate e avelãs picadas.",
+      "Finalize com um bombom inteiro no topo de cada fatia."
+    ],
+    "segredo": "Para o crocante não murchar, envolva os pedaços de wafer em um pouco de chocolate derretido antes de misturar ao recheio cremoso.",
+    "harmonizacao": "Vinho do Porto ou Café de torra escura."
+  },
+  {
+    "id": 13,
+    "titulo": "Fatia de Elite: Cenoura Gourmet com Calda de Vidro",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1590004953392-5aba2e786369?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "60 min",
+    "dificuldade": "Iniciante",
+    "custo": "Baixo",
+    "descricao": "O clássico brasileiro elevado. Massa de cenoura orgânica ultra-fofa com uma camada de brigadeiro gourmet e calda crocante.",
+    "diferencial": "A proporção exata de óleo e cenoura que garante um bolo que derrete na boca, nunca pesado.",
+    "rendimento": "12 fatias",
+    "ingredientes": [
+      "Cenouras vibrantes e frescas",
+      "Óleo de milho (para sabor neutro)",
+      "Ovos caipiras",
+      "Chocolate 50% para a cobertura",
+      "Granulado de chocolate puro (callebaut)"
+    ],
+    "preparo": [
+      "Bata os líquidos no liquidificador e misture os secos à mão com fouet.",
+      "Asse em temperatura baixa para manter a umidade.",
+      "Prepare a cobertura de chocolate que endurece ao esfriar (estilo vidro).",
+      "Corte as fatias e banhe o topo generosamente."
+    ],
+    "segredo": "O segredo da cor laranja vibrante e da maciez é usar cenouras cruas raladas finamente e não bater a farinha no liquidificador.",
+    "harmonizacao": "Café com leite bem quente ou um suco de laranja natural."
   }
 ]
