@@ -24,8 +24,12 @@ import {
   Lock
 } from "lucide-react";
 import { motion, AnimatePresence, useScroll, useSpring } from "framer-motion";
-import confetti from "canvas-confetti";
 import recipesData from "@/data/receitas.json";
+import dynamic from "next/dynamic";
+
+const SidebarDrawer = dynamic(() => Promise.resolve(SidebarDrawerComponent), { ssr: false });
+const UpsellModal = dynamic(() => Promise.resolve(UpsellModalComponent), { ssr: false });
+const SuccessModal = dynamic(() => Promise.resolve(SuccessModalComponent), { ssr: false });
 
 interface Recipe {
   id: number;
@@ -164,7 +168,8 @@ export default function RecipeApp() {
     }
   };
 
-  const triggerSuccess = () => {
+  const triggerSuccess = async () => {
+    const confetti = (await import("canvas-confetti")).default;
     const scalar = 2;
     const triangle = confetti.shapeFromPath({ path: 'M0 10 L5 0 L10 10z' });
     confetti({
@@ -209,10 +214,9 @@ export default function RecipeApp() {
   const completedRecipesCount = Array.from(new Set(Object.keys(completedItems).map(k => k.split('-')[0]))).length;
   const globalProgress = Math.round((completedRecipesCount / recipesData.length) * 100);
 
-  if (!isMounted) return null;
 
   return (
-    <div className="min-h-screen bg-cream selection:bg-secondary/30 antialiased overflow-x-hidden">
+    <main className="min-h-screen bg-cream selection:bg-secondary/30 antialiased overflow-x-hidden">
       <AnimatePresence>
         {isMenuOpen && (
           <SidebarDrawer 
@@ -282,7 +286,7 @@ export default function RecipeApp() {
           setSelectedRecipe(null);
         }} 
       />
-    </div>
+    </main>
   );
 }
 
@@ -467,8 +471,10 @@ function HomeView({
                     src={recipe.imagem} 
                     alt={recipe.titulo}
                     fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
-                    sizes="(max-width: 768px) 100vw, 500px"
+                    priority={idx < 2}
+                    quality={idx < 2 ? 60 : 75}
+                    className={`object-cover ${idx < 2 ? '' : 'group-hover:scale-110 transition-transform duration-700 ease-out'}`}
+                    sizes="(max-width: 512px) 100vw, 512px"
                   />
                   {!isVip && !freeIds.includes(recipe.id) && (
                     <div className="absolute inset-0 bg-primary/40 backdrop-blur-[4px] flex flex-col items-center justify-center p-6 text-center transition-all group-hover:backdrop-blur-[6px]">
@@ -828,7 +834,7 @@ function RecipeDetailView({ recipe, onBack, completedItems, toggleItem, progress
   );
 }
 
-function SidebarDrawer({ isOpen, onClose, categories, activeCategory, onSelectCategory, globalProgress, completedCount, totalCount }: any) {
+function SidebarDrawerComponent({ isOpen, onClose, categories, activeCategory, onSelectCategory, globalProgress, completedCount, totalCount }: any) {
   return (
     <div className="fixed inset-0 z-[110] flex overflow-hidden">
       <motion.div 
@@ -848,7 +854,7 @@ function SidebarDrawer({ isOpen, onClose, categories, activeCategory, onSelectCa
       >
         <div className="p-8 pb-4">
           <div className="flex items-center justify-between mb-10">
-             <div className="h-12 w-12 bg-primary rounded-2xl flex items-center justify-center text-white font-black text-xl shadow-lg shadow-primary/20">R</div>
+             <div className="h-12 w-12 bg-primary rounded-2xl flex items-center justify-center text-white font-black text-xl shadow-lg shadow-primary/20">D</div>
              <button onClick={onClose} className="p-3 bg-primary/5 rounded-2xl text-primary/20 hover:text-primary transition-colors"><X size={24} /></button>
           </div>
 
@@ -908,15 +914,15 @@ function SidebarDrawer({ isOpen, onClose, categories, activeCategory, onSelectCa
   );
 }
 
-function SuccessModal({ isOpen, onClose }: any) {
+function SuccessModalComponent({ isOpen, onClose }: any) {
   if (!isOpen) return null;
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-primary/90 backdrop-blur-md">
       <motion.div initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="bg-white rounded-[3rem] p-10 w-full max-w-sm text-center relative overflow-hidden shadow-2xl">
         <motion.button onClick={onClose} className="absolute top-6 right-6 p-2 text-primary/20"><X size={32} /></motion.button>
         <div className="mb-8 p-6 bg-secondary/10 rounded-[2.5rem] inline-block"><PartyPopper size={64} className="text-secondary" /></div>
-        <h2 className="text-4xl font-black text-primary mb-4 leading-tight">UAI, QUE <br />ORGULHO!</h2>
-        <p className="text-lg text-primary/60 mb-10 font-bold px-2">Você finalizou com perfeição. Que tal descobrir o próximo prato de elite do nosso Arraiá?</p>
+        <h2 className="text-4xl font-black text-primary mb-4 leading-tight">UAU, QUE <br />PERFEIÇÃO!</h2>
+        <p className="text-lg text-primary/60 mb-10 font-bold px-2">Você finalizou com maestria. Que tal descobrir o próximo segredo do nosso Guia de Doces?</p>
         <button 
           className="group w-full h-20 bg-gradient-to-br from-secondary to-accent text-white rounded-[2rem] font-black text-xl shadow-2xl flex items-center justify-center gap-4 relative overflow-hidden" 
           onClick={onClose}
@@ -929,7 +935,7 @@ function SuccessModal({ isOpen, onClose }: any) {
   );
 }
 
-function UpsellModal({ isOpen, onClose, checkoutUrl }: any) {
+function UpsellModalComponent({ isOpen, onClose, checkoutUrl }: any) {
   if (!isOpen) return null;
   return (
     <div className="fixed inset-0 z-[200] flex items-center justify-center p-6 bg-primary/90 backdrop-blur-md">
@@ -937,9 +943,9 @@ function UpsellModal({ isOpen, onClose, checkoutUrl }: any) {
         <div className="mb-8 p-6 bg-secondary/10 rounded-[2.5rem] inline-block">
           <Trophy size={64} className="text-secondary" />
         </div>
-        <h2 className="text-4xl font-black text-primary mb-4 leading-tight uppercase tracking-tight">Desbloqueie <br />o Arraiá de Elite!</h2>
+        <h2 className="text-4xl font-black text-primary mb-4 leading-tight uppercase tracking-tight">Desbloqueie <br />a Doçaria de Elite!</h2>
         <p className="text-sm text-primary/60 mb-10 font-bold px-4 leading-relaxed">
-           Você descobriu o segredo das receitas de elite. Mas ainda temos 35 técnicas guardadas a sete chaves que vão te transformar em um mestre das festas juninas.
+           Você descobriu o segredo das receitas de elite. Mas ainda temos dezenas de técnicas guardadas a sete chaves que vão te transformar em um mestre da confeitaria gourmet.
         </p>
         
         <div className="space-y-4 mb-10">
