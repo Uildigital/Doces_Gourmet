@@ -317,13 +317,14 @@ function HomeView({
     >
       {/* Sticky Header Bar */}
       <div className="fixed top-0 left-0 right-0 z-40 bg-cream/80 backdrop-blur-lg border-b border-primary/5 px-6 py-4 flex items-center justify-between">
-         <motion.button 
-           whileTap={{ scale: 0.9 }}
-           onClick={onOpenMenu}
-           className="h-10 w-10 bg-white rounded-xl flex items-center justify-center text-primary shadow-lg shadow-primary/5 border border-primary/5 active:bg-primary active:text-white transition-all"
-         >
-           <Menu size={20} />
-         </motion.button>
+          <motion.button 
+            whileTap={{ scale: 0.9 }}
+            onClick={onOpenMenu}
+            aria-label="Abrir menu lateral"
+            className="h-10 w-10 bg-white rounded-xl flex items-center justify-center text-primary shadow-lg shadow-primary/5 border border-primary/5 active:bg-primary active:text-white transition-all focus-visible:ring-2 focus-visible:ring-secondary/50 outline-none"
+          >
+            <Menu size={20} />
+          </motion.button>
          
          <div className="flex flex-col items-center">
             <h2 className="text-[10px] font-black uppercase tracking-[0.4em] text-primary">Doces Gourmet</h2>
@@ -370,7 +371,7 @@ function HomeView({
           >
             <div className="flex items-center gap-3">
                <Menu size={20} className="text-secondary" />
-               <span className="text-xs font-black uppercase tracking-[0.3em]">Menu de Receitas</span>
+               <h3 className="text-xs font-black uppercase tracking-[0.3em]">Menu de Receitas</h3>
             </div>
             <motion.div animate={{ rotate: isCategoryMenuOpen ? 180 : 0 }}>
                <ChevronLeft className="-rotate-90" size={20} />
@@ -429,6 +430,7 @@ function HomeView({
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full h-12 bg-white rounded-2xl pl-12 pr-4 border border-primary/5 focus:ring-2 focus:ring-secondary/20 outline-none text-primary font-bold placeholder:text-primary/10 transition-all text-[10px] uppercase tracking-widest"
+            aria-label="Pesquisar receitas"
           />
         </div>
       </header>
@@ -463,7 +465,8 @@ function HomeView({
                     onSelect(recipe);
                   }
                 }}
-                className={`group relative bg-white rounded-[2.5rem] overflow-hidden shadow-2xl shadow-primary/10 cursor-pointer border border-primary/5 transition-all
+                aria-label={`Ver receita de ${recipe.titulo}`}
+                className={`group relative bg-white rounded-[2.5rem] overflow-hidden shadow-2xl shadow-primary/10 cursor-pointer border border-primary/5 transition-all focus-visible:ring-4 focus-visible:ring-secondary/50 outline-none
                   ${!isVip && !freeIds.includes(recipe.id) ? "opacity-60 saturate-0 grayscale" : "opacity-100"}`}
               >
                 <div className="relative h-64 w-full">
@@ -600,7 +603,14 @@ function RecipeDetailView({ recipe, onBack, completedItems, toggleItem, progress
 
       <div className="relative h-[45vh] w-full overflow-hidden">
         <motion.div initial={{ scale: 1.2 }} animate={{ scale: 1 }} transition={{ duration: 10, ease: "linear" }} className="absolute inset-0">
-          <Image src={recipe.imagem} alt={recipe.titulo} fill className="object-cover" priority />
+          <Image 
+            src={recipe.imagem} 
+            alt={recipe.titulo} 
+            fill 
+            className="object-cover" 
+            priority 
+            sizes="100vw"
+          />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-t from-cream via-transparent to-black/20" />
         <div className="absolute bottom-10 left-8 right-8">
@@ -646,9 +656,10 @@ function RecipeDetailView({ recipe, onBack, completedItems, toggleItem, progress
         >
           <Image 
             src={recipe.imagem} 
-            alt={recipe.titulo}
+            alt={`Apresentação de ${recipe.titulo}`}
             fill
             className="object-cover hover:scale-110 transition-transform duration-[2s]"
+            sizes="(max-width: 512px) 100vw, 512px"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent" />
           <div className="absolute bottom-6 left-6 right-6">

@@ -22,6 +22,19 @@ export const metadata: Metadata = {
     statusBarStyle: "default",
     title: "Doces Gourmet",
   },
+  openGraph: {
+    title: "Doces Gourmet de Elite | O Seu Guia da Sobremesa Perfeita",
+    description: "Aprenda a criar doces gourmet lucrativos com um passo a passo interativo e exclusivo.",
+    url: "https://doces-gourmet.vercel.app",
+    siteName: "Doces Gourmet",
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Doces Gourmet de Elite",
+    description: "Aprenda a criar doces gourmet lucrativos.",
+  },
 };
 
 export const viewport: Viewport = {
