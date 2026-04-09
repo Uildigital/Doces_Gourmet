@@ -445,8 +445,7 @@ function HomeView({
             recipes.map((recipe: Recipe, idx: number) => (
               <motion.div
                 key={recipe.id}
-                layout
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.2 }}
@@ -628,10 +627,10 @@ function RecipeDetailView({ recipe, onBack, completedItems, toggleItem, progress
             { icon: Coins, label: "Custo", val: recipe.custo },
             { icon: Users, label: "Rendimento", val: recipe.rendimento || "Padrão" }
           ].map((item, i) => (
-            <motion.div key={i} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 + i * 0.1 }} className="bg-white/80 backdrop-blur-md p-4 rounded-3xl text-center shadow-lg shadow-primary/5 border border-primary/5">
-              <item.icon size={18} className="text-secondary mx-auto mb-2" />
+            <motion.div key={i} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 + i * 0.1 }} className="bg-white/80 backdrop-blur-md p-4 rounded-3xl text-center shadow-lg shadow-primary/5 border border-primary/5 group">
+              <item.icon size={18} className="text-secondary mx-auto mb-2 group-hover:scale-110 transition-transform" />
               <span className="text-[9px] uppercase tracking-wider text-primary/40 block font-black">{item.label}</span>
-              <span className="text-xs font-black text-primary">{item.val}</span>
+              <span className="text-xs font-black text-primary group-hover:text-secondary transition-colors">{item.val}</span>
             </motion.div>
           ))}
         </div>
@@ -853,7 +852,7 @@ function SidebarDrawerComponent({ isOpen, onClose, categories, activeCategory, o
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         onClick={onClose}
-        className="absolute inset-0 bg-primary/60 backdrop-blur-sm" 
+        className="absolute inset-0 bg-primary/40 backdrop-blur-md" 
       />
       
       <motion.div 
@@ -861,7 +860,7 @@ function SidebarDrawerComponent({ isOpen, onClose, categories, activeCategory, o
         animate={{ x: 0 }}
         exit={{ x: "-100%" }}
         transition={{ type: "spring", damping: 25, stiffness: 200 }}
-        className="relative w-[85%] max-w-xs bg-white h-full shadow-2xl flex flex-col"
+        className="relative w-[85%] max-w-xs bg-white/95 backdrop-blur-xl h-full shadow-2xl flex flex-col border-r border-white/20"
       >
         <div className="p-8 pb-4">
           <div className="flex items-center justify-between mb-10">
@@ -977,13 +976,20 @@ function UpsellModalComponent({ isOpen, onClose, checkoutUrl }: any) {
           href={checkoutUrl}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Adquirir acesso VIP agora"
           className="group w-full h-16 bg-gradient-to-br from-secondary to-accent text-white rounded-[2rem] font-black text-xs shadow-2xl flex items-center justify-center gap-4 active:scale-95 transition-all no-underline"
         >
           <span>QUERO MEU ACESSO VIP</span>
           <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform" />
         </a>
         
-        <button onClick={onClose} className="mt-8 text-[10px] font-black uppercase tracking-[0.3em] text-primary/20 hover:text-primary transition-colors">Voltar e ver receitas grátis</button>
+        <button 
+          onClick={onClose} 
+          aria-label="Voltar para receitas gratuitas"
+          className="mt-8 text-[10px] font-black uppercase tracking-[0.3em] text-primary/20 hover:text-primary transition-colors"
+        >
+          Voltar e ver receitas grátis
+        </button>
       </motion.div>
     </div>
   );
