@@ -359,5 +359,268 @@
     ],
     "segredo": "O segredo da cor laranja vibrante e da maciez é usar cenouras cruas raladas finamente e não bater a farinha no liquidificador.",
     "harmonizacao": "Café com leite bem quente ou um suco de laranja natural."
+  },
+  {
+    "id": 14,
+    "titulo": "Brigadeiro de Churros (Coração de Doce)",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "30 min",
+    "dificuldade": "Iniciante",
+    "custo": "Baixo",
+    "descricao": "Nostalgia em cada mordida. Massa branca amanteigada com toque de canela e um coração cremoso de doce de leite.",
+    "diferencial": "Recheio injetado com bico de confeiteiro após o enrolamento, garantindo a surpresa do centro fluído.",
+    "rendimento": "35 unidades",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "20g de manteiga extra sem sal",
+      "100g de chocolate branco picado",
+      "Açúcar e canela para enrolar",
+      "Doce de leite firme para rechear"
+    ],
+    "preparo": [
+      "Cozinhe a massa branca até ponto de enrolar.",
+      "Resfrie e enrole no açúcar com canela.",
+      "Com o auxílio de um bico de confeiteiro, fure o centro e injete o doce de leite.",
+      "Finalize com uma pitanga de doce de leite no topo."
+    ],
+    "segredo": "Use uma canela de alta qualidade (Canela da China ou do Ceilão) para que o aroma seja sofisticado e não apenas doce.",
+    "harmonizacao": "Café coado na hora ou um chocolate quente cremoso."
+  },
+  {
+    "id": 15,
+    "titulo": "Brigadeiro de Café & Cardamomo",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1582176604447-aa5144b677a8?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "custo": "Médio",
+    "descricao": "Para paladares exigentes. A intensidade do café arábica harmonizada com a nota exótica e refrescante do cardamomo.",
+    "diferencial": "Infusão das sementes de cardamomo no creme de leite antes do cozimento, extraindo o máximo de aroma.",
+    "rendimento": "25 unidades",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 dose de café espresso extra-forte",
+      "5 sementes de cardamomo esmagadas",
+      "100g de chocolate amargo 54%",
+      "Cacau em pó 100% para enrolar"
+    ],
+    "preparo": [
+      "Aqueça o creme de leite com o cardamomo e deixe em infusão por 10 min. Coe.",
+      "Misture o creme aromatizado com o leite condensado, café e chocolate.",
+      "Cozinhe até ponto de bloco.",
+      "Finalize passando no cacau em pó puro para um visual rústico e chique."
+    ],
+    "segredo": "O segredo é não deixar o café ferver sozinho. Ele deve ser incorporado à massa já fria ou misturado ao leite condensado para não amargar excessivamente.",
+    "harmonizacao": "Conhaque ou um charuto suave para uma experiência sensorial completa."
+  },
+  {
+    "id": 16,
+    "titulo": "Brigadeiro de Paçoca com Flor de Sal",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "25 min",
+    "dificuldade": "Iniciante",
+    "custo": "Baixo",
+    "descricao": "O rústico que virou gourmet. Massa de amendoim torrado com o contraponto sublime da flor de sal.",
+    "diferencial": "Pedaços de amendoim crocante dentro da massa sedosa.",
+    "rendimento": "30 unidades",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "3 paçocas rolha esfareladas",
+      "1 colher de sopa de pasta de amendoim integral",
+      "Flor de sal para finalizar",
+      "Amendoim triturado para enrolar"
+    ],
+    "preparo": [
+      "Cozinhe todos os ingredientes (exceto a flor de sal) até o ponto de enrolar.",
+      "Deixe a massa descansar para apurar o sabor.",
+      "Enrole no amendoim triturado.",
+      "Coloque 3 grãos de flor de sal no topo de cada brigadeiro."
+    ],
+    "segredo": "A flor de sal realça o sabor do amendoim e 'limpa' o paladar do açúcar, convidando para a próxima mordida.",
+    "harmonizacao": "Cerveja do estilo Stout ou um suco de milho cremoso."
+  },
+  {
+    "id": 17,
+    "titulo": "Brownie de Oreo & Laka (Black and White)",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1582295671350-097409340917?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "custo": "Médio",
+    "descricao": "O paraíso dos amantes de cookies. Massa 'black' de cacau intenso com recheio de chocolate branco Laka e pedaços de Oreo.",
+    "diferencial": "Contraste absoluto de cores e a textura crocante dos biscoitos preservada no interior.",
+    "rendimento": "12 quadrados",
+    "ingredientes": [
+      "Massa de brownie base cacau 100%",
+      "2 barras de chocolate branco Laka picadas",
+      "1 pacote de biscoito Oreo quebrado grosseiramente",
+      "Mini Oreos para decorar o topo"
+    ],
+    "preparo": [
+      "Divida a massa de brownie em duas partes.",
+      "Coloque a primeira, espalhe o Laka e os Oreos quebrados.",
+      "Cubra com o restante da massa e os mini Oreos.",
+      "Asse até a borda firmar e o centro continuar 'fudge'."
+    ],
+    "segredo": "Pressione os mini Oreos no topo apenas na metade do tempo de cozimento para que não queimem e mantenham a cor preta vibrante.",
+    "harmonizacao": "Milkshake de baunilha ou um copo de leite gelado."
+  },
+  {
+    "id": 18,
+    "titulo": "Brownie Blondie de Frutas Amarelas",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "custo": "Alto",
+    "descricao": "A versão 'loira' do brownie. Massa de chocolate branco e baunilha com geleia ácida de maracujá e manga.",
+    "diferencial": "Ausência de cacau, focando no sabor da manteiga noisette e no frescor das frutas.",
+    "rendimento": "15 unidades",
+    "ingredientes": [
+      "250g de chocolate branco de alta qualidade",
+      "150g de manteiga noisette (avelã)",
+      "Polpa de 2 maracujás reduzida",
+      "1 manga picada em cubos pequenos",
+      "Raspas de baunilha"
+    ],
+    "preparo": [
+      "Misture chocolate derretido, manteiga noisette e açúcar.",
+      "Incorpore ovos e farinha.",
+      "No final, adicione a manga e faça redemoinhos com a redução de maracujá.",
+      "Asse até ficar levemente dourado nas bordas."
+    ],
+    "segredo": "A manteiga noisette (manteiga derretida até ficar cor de avelã) dá um sabor amendoado que é a base de um Blondie de elite.",
+    "harmonizacao": "Suco de abacaxi com hortelã ou um chá de jasmim."
+  },
+  {
+    "id": 19,
+    "titulo": "Brownie de Manteiga de Amendoim & Jelly",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1575032617751-6ddec2089882?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "custo": "Médio",
+    "descricao": "O clássico PB&J (Peanut Butter and Jelly) em versão indulgente. Brownie denso com 'swirls' de manteiga de amendoim e geleia de uva.",
+    "diferencial": "Interação de texturas: o cremoso, o elástico da geleia e a massa densa do brownie.",
+    "rendimento": "12 pedaços",
+    "ingredientes": [
+      "Massa base de brownie",
+      "150g de manteiga de amendoim cremosa",
+      "100g de geleia de uva ou morango artesanal",
+      "Amendoins inteiros salgados"
+    ],
+    "preparo": [
+      "Coloque a massa na fôrma.",
+      "Pingue colheradas de manteiga de amendoim e geleia por cima.",
+      "Use um palito para mesclar as cores.",
+      "Salpique os amendoins salgados por cima antes de assar."
+    ],
+    "segredo": "Use uma manteiga de amendoim sem açúcar para que o contraste com o brownie doce e a geleia ácida seja perfeito.",
+    "harmonizacao": "Café gelado (Cold Brew) ou um smoothie de banana."
+  },
+  {
+    "id": 20,
+    "titulo": "Fatia de Elite: Coco Queimado & Abacaxi",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "60 min",
+    "dificuldade": "Iniciante",
+    "custo": "Baixo",
+    "descricao": "Um toque tropical. Massa de coco úmida, recheio de creme de coco queimado e compota de abacaxi com hortelã.",
+    "diferencial": "Uso de coco fresco ralado e tostado na hora, garantindo uma crocância e sabor defumado natural.",
+    "rendimento": "10 fatias",
+    "ingredientes": [
+      "Massa de coco (estilo bolo indiano)",
+      "Abacaxi em cubos cozido com açúcar",
+      "Creme de coco feito com leite de coco artesanal",
+      "Flocos de coco queimado para decorar"
+    ],
+    "preparo": [
+      "Monte a fatia começando pela massa bem regada com leite de coco.",
+      "Adicione a compota de abacaxi e o creme de coco.",
+      "Repita o processo e finalize com muito coco queimado.",
+      "Deixe gelar por 6 horas para fixar os sabores."
+    ],
+    "segredo": "O segredo é tostar o coco levemente no forno antes de usar no recheio. Isso muda completamente o perfil de sabor de 'doce comum' para 'gourmet'.",
+    "harmonizacao": "Suco de coco gelado com limão ou uma batida de frutas tropicais."
+  },
+  {
+    "id": 21,
+    "titulo": "Fatia de Elite: Tiramisù Brasileiro",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1571115177098-24ec44ed2bb4?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "50 min",
+    "dificuldade": "Médio",
+    "custo": "Alto",
+    "descricao": "A elegância italiana com alma brasileira. Massa pão de ló embebida em café especial e cachaça premium, com creme leve de Mascarpone.",
+    "diferencial": "Substituição do Marsala por uma cachaça de alambique envelhecida em carvalho.",
+    "rendimento": "8 fatias",
+    "ingredientes": [
+      "Pão de ló leve",
+      "Café espresso frio",
+      "Cachaça envelhecida",
+      "500g de Mascarpone",
+      "Cacau em pó para polvilhar"
+    ],
+    "preparo": [
+      "Mergulhe rapidamente a massa na mistura de café e cachaça.",
+      "Alterne com camadas do creme de Mascarpone batido.",
+      "Deixe na geladeira por 12 horas (fundamental para a textura).",
+      "Polvilhe o cacau apenas na hora de servir para não umedecer."
+    ],
+    "segredo": "Não molhe demais a massa; ela deve estar úmida mas manter a estrutura para não 'desmontar' ao ser cortada.",
+    "harmon_izacao": "O próprio café espresso usado na receita ou um Licor 43."
+  },
+  {
+    "id": 22,
+    "titulo": "Fatia de Elite: Cheesecake de Jabuticaba",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "90 min",
+    "dificuldade": "Médio",
+    "custo": "Médio",
+    "descricao": "Uma joia brasileira. Base de biscoito amanteigado, creme de queijo denso e uma calda rústica de jabuticabas pretinhas.",
+    "diferencial": "Exclusividade: a jabuticaba traz uma acidez orgânica e uma cor púrpura que impressiona qualquer cliente.",
+    "rendimento": "10 fatias",
+    "ingredientes": [
+      "Biscoito maizena e manteiga",
+      "Cream cheese, ovos e baunilha",
+      "Geleia de jabuticaba artesanal (com casca)",
+      "Frutas inteiras para o topo"
+    ],
+    "preparo": [
+      "Asse a base e o creme em banho-maria lentamente.",
+      "Após esfriar, cubra com uma camada generosa de geleia de jabuticaba.",
+      "Decore com jabuticabas frescas se estiver na época ou flores comestíveis."
+    ],
+    "segredo": "Use as cascas da jabuticaba na geleia para obter a cor vinho profunda e os taninos que equilibram perfeitamente com a gordura do queijo.",
+    "harmonizacao": "Vinho tinto Pinot Noir ou um chá de amora."
+  },
+  {
+    "id": 23,
+    "titulo": "Fatia de Elite: Opera de Chocolate & Avelã",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "120 min",
+    "dificuldade": "Muito Difícil",
+    "custo": "Muito Alto",
+    "descricao": "A arquitetura francesa em fatias. 6 camadas finíssimas de biscuit joconde, buttercream de café, ganache e glaçagem espelhada.",
+    "diferencial": "Precisão milimétrica e o uso de chocolate Callebaut 70%, garantindo um sabor intenso e duradouro.",
+    "rendimento": "12 fatias de luxo",
+    "ingredientes": [
+      "Massa Biscuit Joconde (com amêndoas)",
+      "Creme de manteiga aromatizado com café arábica",
+      "Ganache de chocolate belga",
+      "Glaçagem Opera (brilhante como espelho)"
+    ],
+    "preparo": [
+      "Monte as camadas alternando massa embebida em calda, creme de café e ganache.",
+      "Pressione levemente a cada camada para evitar bolhas de ar.",
+      "Finalize com a glaçagem espelhada e corte com faca quente para bordas retas."
+    ],
+    "segredo": "O segredo do bolo Opera é a altura: ele deve ser baixo (máximo 4cm) mas conter todas as 6 camadas distintas e visíveis.",
+    "harmonizacao": "Café Bourbon Amarelo ou um licor de cacau premium."
   }
 ]
