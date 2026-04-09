@@ -622,5 +622,215 @@
     ],
     "segredo": "O segredo do bolo Opera é a altura: ele deve ser baixo (máximo 4cm) mas conter todas as 6 camadas distintas e visíveis.",
     "harmonizacao": "Café Bourbon Amarelo ou um licor de cacau premium."
+  {
+    "id": 23,
+    "titulo": "Fatia de Elite: Opera de Chocolate & Avelã",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "120 min",
+    "dificuldade": "Muito Difícil",
+    "custo": "Muito Alto",
+    "descricao": "A arquitetura francesa em fatias. 6 camadas finíssimas de biscuit joconde, buttercream de café, ganache e glaçagem espelhada.",
+    "diferencial": "Precisão milimétrica e o uso de chocolate Callebaut 70%, garantindo um sabor intenso e duradouro.",
+    "rendimento": "12 fatias de luxo",
+    "ingredientes": [
+      "Massa Biscuit Joconde (com amêndoas)",
+      "Creme de manteiga aromatizado com café arábica",
+      "Ganache de chocolate belga",
+      "Glaçagem Opera (brilhante como espelho)"
+    ],
+    "preparo": [
+      "Monte as camadas alternando massa embebida em calda, creme de café e ganache.",
+      "Pressione levemente a cada camada para evitar bolhas de ar.",
+      "Finalize com a glaçagem espelhada e corte com faca quente para bordas retas."
+    ],
+    "segredo": "O segredo do bolo Opera é a altura: ele deve ser baixo (máximo 4cm) mas conter todas as 6 camadas distintas e visíveis.",
+    "harmonizacao": "Café Bourbon Amarelo ou um licor de cacau premium."
+  },
+  {
+    "id": 24,
+    "titulo": "Brigadeiro de Lavanda & Blueberries",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "30 min",
+    "dificuldade": "Médio",
+    "custo": "Médio",
+    "descricao": "Floral e místico. A suavidade da lavanda culinária com a explosão de acidez do mirtilo fresco no recheio.",
+    "diferencial": "Infusão de flores de lavanda seca, conferindo um aroma relaxante e sofisticado.",
+    "rendimento": "25 unidades",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "10g de lavanda culinária desidratada",
+      "100g de chocolate branco belga",
+      "Blueberries (mirtilos) frescos para rechear",
+      "Açúcar de beterraba (roxo) para enrolar"
+    ],
+    "preparo": [
+      "Faça uma infusão da lavanda no leite condensado por 30 min e coe.",
+      "Cozinhe com o chocolate branco até ponto de enrolar.",
+      "Abra a massa, coloque um mirtilo inteiro no centro e feche.",
+      "Passe no açúcar roxo para um visual etéreo."
+    ],
+    "segredo": "Use mirtilos bem gelados para rechear; isso facilita o manuseio e mantém a fruta inteira durante o processo de fechar o brigadeiro.",
+    "harmonizacao": "Chá branco ou um gin tônica com botânicos florais."
+  },
+  {
+    "id": 25,
+    "titulo": "Brigadeiro de Gorgonzola & Mel",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1452195125355-982849610f40?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "25 min",
+    "dificuldade": "Difícil",
+    "custo": "Alto",
+    "descricao": "Ousadia na confeitaria. O salgado e pungente do queijo gorgonzola equilibrado pela doçura floral do mel silvestre.",
+    "diferencial": "Uma sobremesa que transita entre o prato de queijos e o doce, perfeita para eventos corporativos de luxo.",
+    "rendimento": "30 unidades",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "50g de queijo Gorgonzola Dolce (mais suave)",
+      "20g de manteiga sem sal",
+      "Mel silvestre puro",
+      "Nozes trituradas para enrolar"
+    ],
+    "preparo": [
+      "Derreta o queijo no leite condensado ainda frio para homogeneizar.",
+      "Cozinhe até o ponto de enrolar firme.",
+      "Enrole nas nozes trituradas.",
+      "Finalize com uma gota de mel em cada unidade usando uma seringa culinária."
+    ],
+    "segredo": "O segredo é usar o Gorgonzola 'Dolce', que é menos agressivo e possui notas mais amanteigadas, harmonizando melhor com o açúcar.",
+    "harmonizacao": "Vinho do Porto Tawny ou um Sauternes francês."
+  },
+  {
+    "id": 26,
+    "titulo": "Brigadeiro de Whisky & Malte Tostado",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://images.unsplash.com/photo-1527281480448-9907ac982631?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "35 min",
+    "dificuldade": "Médio",
+    "custo": "Muito Alto",
+    "descricao": "Masculino e intenso. Massa de chocolate 70% cacau com redução de single malt whisky e finalização em malte crocante.",
+    "diferencial": "Uso de técnica de redução de álcool para concentrar o sabor defumado e amadeirado do whisky.",
+    "rendimento": "20 unidades robustas",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "50ml de Whisky Single Malt (Bourbon)",
+      "150g de chocolate amargo 70%",
+      "Grãos de malte tostados e moídos para enrolar"
+    ],
+    "preparo": [
+      "Reduza o whisky no fogo até sobrar metade do volume.",
+      "Adicione os demais ingredientes e cozinhe até ponto de enrolar.",
+      "O chocolate 70% dará a estrutura necessária para suportar o líquido.",
+      "Enrole no malte moído grosso."
+    ],
+    "segredo": "O malte tostado no enrolamento traz uma nota de 'pão queimado' e 'torrefação' que é a assinatura de um bom whisky, criando uma camada extra de sabor.",
+    "harmonizacao": "O próprio whisky puro ou um café tipo Cold Brew nitrogenado."
+  },
+  {
+    "id": 27,
+    "titulo": "Brownie de Matcha & Chocolate Branco",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "40 min",
+    "dificuldade": "Médio",
+    "custo": "Muito Alto",
+    "descricao": "Zen e vibrante. A cor verde neon natural do matcha japonês com gotas de chocolate branco purista.",
+    "diferencial": "Uso de Matcha categoria cerimonial, garantindo sabor herbáceo sem o amargor excessivo.",
+    "rendimento": "15 quadrados",
+    "ingredientes": [
+      "Massa de Blondie base",
+      "2 colheres de sopa de Matcha em pó cerimonial",
+      "150g de 'chunks' de chocolate branco belga",
+      "Gergelim preto para decorar"
+    ],
+    "preparo": [
+      "Peneire o matcha junto com a farinha para garantir que não fiquem pelotas verdes.",
+      "Misture delicadamente à massa base de manteiga e ovos.",
+      "Adicione os pedaços de chocolate branco.",
+      "Asse até o centro ficar 'gelatinoso-firme' e o topo levemente opaco."
+    ],
+    "segredo": "Não deixe o brownie passar do ponto; o matcha escurece com o calor excessivo. O centro deve estar quase subcozido para manter a cor vibrante.",
+    "harmonizacao": "Chá verde Sencha ou um saquê doce."
+  },
+  {
+    "id": 28,
+    "titulo": "Brownie de Bacon & Maple Syrup",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "50 min",
+    "dificuldade": "Iniciante",
+    "custo": "Alto",
+    "descricao": "The American Way. A gordura defumada do bacon crocante embebida em xarope de bordo genuíno.",
+    "diferencial": "Fusão inusitada que utiliza o salgado da gordura animal para elevar o dulçor do chocolate amargo.",
+    "rendimento": "12 pedaços",
+    "ingredientes": [
+      "Massa base de brownie chocolate 60%",
+      "100g de bacon fatiado ultra-crocante",
+      "50ml de Maple Syrup (Xarope de Bordo)",
+      "Pecãs caramelizadas"
+    ],
+    "preparo": [
+      "Frite o bacon até ficar muito seco, escorra a gordura e pique finamente.",
+      "Pincele maple syrup no bacon e leve ao forno por 2 min para caramelizar.",
+      "Misture metade do bacon na massa e a outra metade use para decorar o topo com as pecãs.",
+      "Asse conforme o tempo padrão."
+    ],
+    "segredo": "O bacon deve ser frito 'crispy'. Se ficar borrachudo, a experiência será desagradável. O segredo é a textura que estala na boca contra a maciez do chocolate.",
+    "harmonizacao": "Cerveja artesanal do tipo IPA ou um café americano longo."
+  },
+  {
+    "id": 29,
+    "titulo": "Brownie de Figo & Mel de Engenho",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://images.unsplash.com/photo-1543508185-35e0763568c4?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "55 min",
+    "dificuldade": "Médio",
+    "custo": "Médio",
+    "descricao": "Rústico e poético. Pedaços de figo fresco assados com mel de engenho sobre uma massa de chocolate com nozes.",
+    "diferencial": "Visual rústico com as sementes do figo trazendo uma textura singular e elegante.",
+    "rendimento": "10 fatias largas",
+    "ingredientes": [
+      "Massa de brownie chocolate 50%",
+      "6 figos frescos cortados em quatro",
+      "Mel de engenho (melaço de cana)",
+      "Nozes quartz picadas",
+      "Queijo de cabra (opcional para finalizar)"
+    ],
+    "preparo": [
+      "Coloque os figos sobre a massa crua já na fôrma.",
+      "Regue cada figo com mel de engenho.",
+      "Asse lentamente.",
+      "A fruta irá soltar o suco e caramelizar junto com a massa do brownie."
+    ],
+    "segredo": "Escolha figos bem maduros (casca roxa escura). O dulçor do mel de engenho substitui parte do açúcar, dando uma nota de fundo de rapadura maravilhosa.",
+    "harmonizacao": "Queijo Brie ou um vinho licoroso de uva Marsala."
+  },
+  {
+    "id": 30,
+    "titulo": "Fatia de Elite: Mille-Feuille (Mil Folhas)",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=1000&auto=format&fit=crop",
+    "tempo": "180 min",
+    "dificuldade": "Extremo",
+    "custo": "Alto",
+    "descricao": "A prova de fogo da confeitaria. Camadas de massa folhada artesanal que se desfazem ao toque, com creme de confeiteiro leve.",
+    "diferencial": "Folhamento manual com 729 camadas e creme de baunilha Bourbon fresca batido com nata.",
+    "rendimento": "8 fatias perfeitas",
+    "ingredientes": [
+      "Massa folhada artesanal (feita com manteiga francesa)",
+      "Creme Patissière (farinha, gemas, leite de fazenda)",
+      "Fondant de baunilha para cobertura",
+      "Açúcar de confeiteiro para decorar"
+    ],
+    "preparo": [
+      "Asse a massa folhada entre duas assadeiras para que cresça uniformemente e fique reta.",
+      "Corte em retângulos idênticos.",
+      "Aplique o creme de confeiteiro frio com bico liso.",
+      "Faça o mármore de chocolate e fondant no topo da última camada.",
+      "Monte apenas minutos antes de servir para manter a crocância extrema."
+    ],
+    "segredo": "O segredo do corte limpo: use uma faca de serra muito afiada, fazendo movimento de vaivém sem pressionar, ou uma faca elétrica de alta precisão.",
+    "harmonizacao": "Chá preto Darjeeling ou uma taça de Champagne Millésimé."
   }
 ]
