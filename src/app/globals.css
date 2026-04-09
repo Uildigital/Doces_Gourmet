@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5D3A1A;
+  --color-secondary: #E83E8C;
+  --color-accent: #C4912D;
+  --color-cream: #FDF9F6;
+  --color-success: #22C55E;
+}
+
+:root {
+  --background: #FDF9F6;
+  --foreground: #2D1A12;
+  --primary: #5D3A1A;
+  --secondary: #E83E8C;
+  --accent: #C4912D;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom Checkbox Style */
+input[type="checkbox"] {
+  @apply h-6 w-6 rounded border-gray-300 text-primary focus:ring-primary;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D2691E;
+  border-radius: 10px;
+}

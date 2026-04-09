@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "titulo": "Brigadeiro de Belga (Ponto de Seda)",
+    "categoria": "🍫 Brigadeiros de Elite",
+    "imagem": "https://webbookpro.com/imagens/brigadeiro-belga.avif",
+    "tempo": "25 min",
+    "dificuldade": "Iniciante",
+    "custo": "Médio",
+    "descricao": "O rei da vitrine. Um brigadeiro que não cristaliza, com brilho espelhado e o sabor profundo do chocolate belga 54%.",
+    "diferencial": "Utilização de técnica de emulsão a frio antes do fogo, garantindo a ausência total de grânulos de açúcar.",
+    "rendimento": "30 unidades de 20g",
+    "ingredientes": [
+      "395g (1 lata) de leite condensado premium",
+      "200g (1 caixinha) de creme de leite (mínimo 20% gordura)",
+      "100g de chocolate Belga Callebaut 54% cacau",
+      "15g (1 colher de sopa) de glucose de milho (segredo do brilho)",
+      "30g de manteiga extra sem sal",
+      "Granulado Split Belga para o confeito final"
+    ],
+    "preparo": [
+      "Em uma panela de fundo grosso, misture o leite condensado, o creme de leite e a glucose ainda fora do fogo.",
+      "Adicione o chocolate picado e a manteiga. Leve ao fogo médio-baixo.",
+      "Mexa com espátula de silicone em movimentos circulares e em '8' para não queimar as laterais.",
+      "Cozinhe até o ponto de bloco: quando você levanta a espátula e o doce cai em pedaços que não se misturam imediatamente à massa.",
+      "Transfira para um prato, cubra com filme plástico em contato e deixe descansar por 12h fora da geladeira."
+    ],
+    "segredo": "O segredo do ponto de seda de elite é a glucose. Ela impede a recristalização do açúcar por até 7 dias, mantendo o doce fresco como se tivesse sido feito na hora.",
+    "harmonizacao": "Acompanhe com um Café Espresso de torra média ou um espumante Brut para contrastar com a doçura do chocolate."
+  },
+  {
+    "id": 2,
+    "titulo": "Brownie Supreme (Casquinha de Cristal)",
+    "categoria": "🍪 Brownies Recheados",
+    "imagem": "https://webbookpro.com/imagens/brownie-supreme.avif",
+    "tempo": "45 min",
+    "dificuldade": "Médio",
+    "custo": "Médio",
+    "descricao": "O equilíbrio perfeito entre o fudge úmido e a casquinha craquelada que quebra como cristal na primeira mordida.",
+    "diferencial": "Proporção técnica de gordura/açúcar que garante o centro úmido sem parecer massa crua.",
+    "rendimento": "12 quadrados generosos",
+    "ingredientes": [
+      "200g de chocolate meio amargo 70% cacau",
+      "150g de manteiga sem sal",
+      "200g (1 xícara) de açúcar refinado",
+      "100g (1/2 xícara) de açúcar mascavo (para umidade)",
+      "3 ovos grandes em temperatura ambiente",
+      "100g de farinha de trigo premium peneirada",
+      "30g de cacau em pó (100% cacau)",
+      "1 pitada de flor de sal"
+    ],
+    "preparo": [
+      "Derreta o chocolate com a manteiga em banho-maria ou micro-ondas e reserve.",
+      "Bata os ovos com os dois açúcares na batedeira por 5 minutos até formar um creme pálido e volumoso (isso cria a casquinha).",
+      "Adicione o chocolate derretido à mistura de ovos e misture delicadamente.",
+      "Peneire a farinha e o cacau sobre a massa e incorpore com um fouet sem bater muito.",
+      "Asse em fôrma quadrada (20x20cm) com papel manteiga a 180°C por 25-30 min. O centro deve sair levemente úmido no palito."
+    ],
+    "segredo": "O segredo da casquinha craquelada é o tempo de batimento dos ovos com o açúcar. É nesse processo que o açúcar se dissolve e sobe para a superfície durante o cozimento, criando a película de cristal.",
+    "harmonizacao": "Sirva com uma bola de sorvete de baunilha artesanal ou uma calda de frutas vermelhas ácidas."
+  },
+  {
+    "id": 3,
+    "titulo": "Fatia de Elite: Ninho com Nutella",
+    "categoria": "🍰 Fatias Supremas",
+    "imagem": "https://webbookpro.com/imagens/fatia-ninho-nutella.avif",
+    "tempo": "60 min",
+    "dificuldade": "Difícil",
+    "custo": "Alto",
+    "descricao": "Uma arquitetura de sabores e texturas. Massa chiffon de baunilha, mousse de Leite Ninho aerada e o coração generoso de Nutella purista.",
+    "diferencial": "Montagem técnica em aros para garantir camadas perfeitas e visual de confeitaria internacional.",
+    "rendimento": "8 fatias de vitrine",
+    "ingredientes": [
+      "Massa Chiffon de Baunilha (Leve e elástica)",
+      "500g de creme de Leite Ninho estruturado (com chantilly)",
+      "300g de Nutella original (em temperatura ambiente)",
+      "Calda de leite condessado e baunilha para regar",
+      "Leite Ninho em pó para a finalização 'neve'"
+    ],
+    "preparo": [
+      "Corte a massa Chiffon em 3 camadas circulares.",
+      "No aro de montagem, coloque a primeira camada e regue com a calda de elite.",
+      "Aplique metade do mousse de Ninho, faça um 'poço' no centro e preencha com Nutella pura.",
+      "Repita o processo e finalize com a última camada de massa regada.",
+      "Leve ao freezer por 4 horas para estruturação antes de cortar as fatias perfeitamente com faca quente."
+    ],
+    "segredo": "O segredo da fatia de vitrine é o corte. Use uma faca longa aquecida em água quente e limpe-a a cada corte. Isso garante que as camadas não se misturem e o visual seja milimetricamente limpo.",
+    "harmonizacao": "Harmoniza com um Café Latte bem cremoso ou um copo de leite gelado para os mais tradicionais."
+  }
+]
