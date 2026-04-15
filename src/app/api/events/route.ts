@@ -17,8 +17,10 @@ export async function POST(req: NextRequest) {
           action_source: "website",
           event_source_url: data.url,
           user_data: {
-            client_ip_address: req.headers.get("x-forwarded-for") || "127.0.0.1",
+            client_ip_address: req.headers.get("x-forwarded-for")?.split(',')[0] || "127.0.0.1",
             client_user_agent: req.headers.get("user-agent") || "",
+            fbp: req.cookies.get("_fbp")?.value || "",
+            fbc: req.cookies.get("_fbc")?.value || "",
           },
           custom_data: data.custom_data || {},
         },

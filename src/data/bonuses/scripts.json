@@ -1,0 +1,26 @@
+[
+  {
+    "id": "convite-vip",
+    "titulo": "Convite Degustação VIP",
+    "categoria": "lancamento",
+    "texto": "Olá [Nome]! 🍫 Acabei de finalizar uma fornada limitada do nosso Brigadeiro de Belga (Ponto de Seda) aqui no ateliê. Lembrei que você valoriza experiências gourmet reais e reservei uma das 5 caixinhas exclusivas de lançamento para você. Quer que eu separe agora ou prefere dar uma olhadinha no menu novo primeiro?"
+  },
+  {
+    "id": "gatilho-escassez",
+    "titulo": "Escassez de Vitrine",
+    "categoria": "lancamento",
+    "texto": "Passando para avisar que as Fatias de Ninho com Nutella acabaram de sair do resfriamento técnico e restam apenas 3 unidades para entrega hoje. 🍰 É a última chance de garantir essa textura aveludada antes do final de semana. Posso confirmar a sua?"
+  },
+  {
+    "id": "follow-up-doce",
+    "titulo": "Feedback Pós-Experiência",
+    "categoria": "retencao",
+    "texto": "Oi [Nome]! Como foi sua experiência com o Brownie Supreme ontem? 🍪 Aqui no ateliê buscamos a 'quebra' perfeita da casquinha e adoraria saber se superou suas expectativas. Sua opinião é o que lapida nossa qualidade de elite!"
+  },
+  {
+    "id": "fechamento-ouro",
+    "titulo": "Fechamento Ouro (Upsell)",
+    "categoria": "fechamento",
+    "texto": "Excelente escolha! Além da caixa de 12 unidades, temos hoje o nosso Guia de Harmonização com Cafés Especiais anexo à nossa Torre Gourmet. ☕ Por apenas mais R$ 15 você leva a experiência completa de vitrine para casa. Vamos adicionar essa sofisticação ao seu pedido?"
+  }
+]
